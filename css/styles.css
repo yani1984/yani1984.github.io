@@ -1,0 +1,143 @@
+/* HEADING & BODY */
+body {
+  color: #0d47a1;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', serif;
+  font-size: 5.625rem;
+  margin: 50px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #0074d9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #0d47a1;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #addbfd;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top: 6px dotted #addbfd;
+  border-bottom: none;
+  width: 50px;
+  margin: 100px auto;
+}
+
+/* CONTAINERS */
+.top-container {
+  background: linear-gradient(to bottom, #619bff, #6db2ff, #80bbff, #91d5ff, #addbfd);
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #578ce8;
+  margin-top: 50px;
+  padding: 40px 0 10px;
+}
+
+/* IMAGES */
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.avatar {
+  max-width: 100px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.design-img {
+  max-width: 80px;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.scrum-img {
+  max-width: 80px;
+  height: auto;
+  float: right;
+  margin-left: 10px;
+}
+
+.intro {
+  width: 50%;
+  margin: 20px auto 50px auto;
+}
+
+.skill-row {
+  margin: 40px 25% 60px 25%;
+  text-align: left;
+}
+
+.inquiries{
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #6db2ff, #619bff);
+  border: 1px solid #578ce8;
+  border-radius: 8px;
+  color: white;
+  margin: 30px auto;
+  padding: 15px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.btn:hover{
+  background: linear-gradient(to bottom, #91d5ff, #80bbff);
+  color: #578ce8;
+}
+
+.footer-link {
+  padding-top: 10px;
+}
+
+.copyright{
+  color: #addbfd;
+  font-size: 0.75rem;
+  padding-top: 20px;
+  magin: 0;
+}
